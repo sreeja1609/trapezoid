@@ -7,6 +7,11 @@ class Trapezoid{
         int h=sc.nextInt();
     }
     public static int division(int num){
-        return num/2;
+        int val=num/2;
+        multiplication(val, h);
+
+    }
+    public static int multiplication(int a, int b){
+        System.out.println(a*b);
     }
 }
