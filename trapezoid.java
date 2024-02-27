@@ -6,4 +6,7 @@ class Trapezoid{
         int b=sc.nextInt();
         int h=sc.nextInt();
     }
+    public static int division(int num){
+        return num/2;
+    }
 }
