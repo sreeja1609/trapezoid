@@ -11,4 +11,7 @@ class Trapezoid{
         int addi=a+b;
         return division(addi);
     }
+    public static int division(int num){
+        return num/2;
+    }
 }
